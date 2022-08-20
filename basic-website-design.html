@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic website Layout</title>
+
+    <style>
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: slategray;
+            margin: 0;
+            padding: 0;
+
+        }
+        #wrapper{
+            border: 1px solid black;
+            width: 1000px;
+            background-color: white;
+            margin: auto;
+        }
+        #header{
+            background: crimson;
+            height: 100px;
+            
+        }
+
+        #menu{
+            background: lightsalmon;
+        }
+        #menu li{
+            display: inline-block;
+        }
+        #menu li a{
+            display: block;
+            padding: 10px 14px;
+            text-decoration: none;
+        }
+        #menu ul{
+            margin: 0;
+            padding: 0;
+        }
+        
+     
+        #content{
+            width: 800px;
+            min-height: 500px;
+            float: left;
+           
+        }
+        #sidebar{
+            background: lightblue;
+            display: block;
+            min-height: 500px;
+            text-decoration: none;
+            width: 200px;
+            float: left;
+           
+        }
+
+        #sidebar li
+        {
+            list-style: none;        }
+        #sidebar li a{
+            text-decoration: none;
+        }
+
+
+        #footer{
+         background-color:gray ;
+         clear: both;
+         
+        }
+        #footer h2{
+            padding: 0;
+            margin: 0;
+        }
+
+        @media screen and (max-width:1020px){
+            #wrapper{
+                width: 800px;
+            }
+            #content{
+                width: 80%;
+            }
+            #sidebar{
+                width: 18%;
+            }
+        }
+
+        @media screen and (max-width:810px){
+            #wrapper{
+                width: 80%;
+            }
+            #content{
+                width: 20%;
+            }
+            #sidebar{
+                width: auto;
+            }
+        }
+
+        @media screen and (max-width:510px){
+            #wrapper{
+                width: auto;
+            }  
+            #content{
+                width: auto;
+            }
+            #sidebar{
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 style="margin: 0;">Our First Project</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Gellary</a></li>
+                <li><a href="">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div id="content" >
+            <h2>Basic Design layout </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum ducimus atque neque asperiores itaque, est commodi nemo quos esse, eligendi magni modi illo doloribus labore quae omnis fugit. Reiciendis vitae consequatur voluptatum ipsam ipsum aliquid, assumenda asperiores porro corporis eos architecto vero provident modi ab exercitationem molestias! Perferendis quis ducimus fugiat, modi quas dicta porro illo provident. Obcaecati, reprehenderit praesentium. Obcaecati ullam suscipit aspernatur voluptatem omnis officiis nostrum odio ipsa doloremque? Tempora dolore et ea magnam libero odit, possimus alias distinctio unde vitae ipsam iste soluta dignissimos dolor molestias corrupti nostrum ullam officia. Temporibus quibusdam cumque tempore officiis exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa cumque ex nam veritatis repellendus fugiat, adipisci deserunt autem consequuntur itaque tenetur natus, molestiae modi quam quaerat voluptates quisquam. Facere repudiandae omnis cumque autem dolor asperiores enim debitis, esse deleniti, porro delectus nesciunt tempore minima officia quaerat corporis consectetur laboriosam at laborum iusto facilis eos eum. Eveniet facilis ea excepturi officia quas, quae ab mollitia praesentium! Quisquam reprehenderit suscipit doloremque perferendis explicabo impedit voluptatum iste labore neque, aliquid cupiditate obcaecati distinctio sapiente mollitia voluptatibus alias saepe nobis voluptas nisi a magnam ullam error. Nemo tempore illo aliquam voluptatibus laudantium! Fugit?</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Gellary</a></li>
+                <li><a href="">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div id="footer">
+          <h2>  alihusnain@gmail.com </h2>
+        </div>
+    </div>
+</body>
+</html>
