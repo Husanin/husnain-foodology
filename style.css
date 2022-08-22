@@ -503,10 +503,6 @@ margin-right: 20px;
 
             
            }
-           #pos{
-            position: sticky;
-            left: .001px;
-           }
 
            .item5{background: #F2F7FB;
             grid-column: 1 / 2;
