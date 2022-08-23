@@ -563,7 +563,7 @@ margin-right: 20px;
                 position: sticky;
                 left: .001px;
             }
-
+            /* resolve category issue    */
             #btn4 {
                 background-color: white;
                 border-style: none;
