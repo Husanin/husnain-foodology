@@ -1428,7 +1428,7 @@ margin-right: 20px;
 
     #t1 {
         width: 120px;
-        height: 40px;
+        height: 60px;
         background: #F2F7FB;
         border-style: none;
         font-size: 15px;
@@ -1450,5 +1450,44 @@ margin-right: 20px;
     }
 }
 
-  
+@media screen and (min-width:1600px) and (max-width:2000px) {
+    
+
+#btn4 {
+    background-color: white;
+    border-style: none;
+    /* margin-left: 150px; */
+    /* margin-bottom: 30px; */
+    margin-left: 0px;
+    float: right;
+    margin-top: 50px;
+}
+#inpt {
+    width: 500px;
+    margin-left: 50px;
+}
+#t1 {
+    width: 160px;
+    height: 60px;
+    background: #F2F7FB;
+    border-style: none;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+   
+    padding-top: 10px;
+    font-weight: 550;
+}
+
+
+#im {
+    width: 30px;
+    height: 40px;
+    margin-top: -10px;
+    float: left;
+    border-radius: 10px;
+}
+
+}  
 
